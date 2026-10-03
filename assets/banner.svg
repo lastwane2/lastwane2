@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="480" viewBox="0 0 1600 480" role="img" aria-labelledby="title desc">
+  <title id="title">Mikhail Egorov — Full-stack developer, Qwane</title>
+  <desc id="desc">Minimal charcoal banner with muted olive geometry. Internal tools and AI. qwane.ru.</desc>
+  <defs>
+    <radialGradient id="ambient" cx="91%" cy="10%" r="87%">
+      <stop offset="0" stop-color="#263021" stop-opacity=".55"/>
+      <stop offset=".7" stop-color="#111511" stop-opacity=".12"/>
+      <stop offset="1" stop-color="#0e100f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#8b9777" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#8b9777" stop-opacity=".03"/>
+    </linearGradient>
+    <clipPath id="frame"><rect width="1600" height="480" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="1600" height="480" fill="#0e100f"/>
+    <rect width="1600" height="480" fill="url(#ambient)"/>
+    <g fill="none" stroke="url(#line)" stroke-width="1.5">
+      <circle cx="1402" cy="157" r="219"/>
+      <circle cx="1402" cy="157" r="160"/>
+      <path d="M1247 2 1600 355M1179 157h421M1402 0v377"/>
+    </g>
+    <circle cx="1247" cy="2" r="4" fill="#9ca987"/>
+    <g font-family="'Segoe UI', Arial, sans-serif">
+      <text x="86" y="82" fill="#abb69b" font-size="27" font-weight="600" letter-spacing="2">qwane<tspan fill="#697461">.</tspan></text>
+      <text x="1513" y="80" text-anchor="end" fill="#94a089" font-size="15" letter-spacing="3">FULL-STACK DEVELOPER</text>
+      <text x="80" y="235" fill="#efeee8" font-size="91" font-weight="500" letter-spacing="-4">Mikhail Egorov</text>
+      <text x="86" y="293" fill="#a6ada2" font-size="28" letter-spacing=".5">Internal tools · AI</text>
+      <path d="M86 365H1514" stroke="#30372e"/>
+      <text x="86" y="416" fill="#8e9788" font-size="21" letter-spacing=".5">Full-stack developer (TypeScript, Node.js)</text>
+      <text x="1514" y="416" text-anchor="end" fill="#b3bdab" font-size="21" letter-spacing=".5">qwane.ru ↗</text>
+    </g>
+  </g>
+</svg>
+
+
